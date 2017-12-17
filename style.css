@@ -2,7 +2,7 @@ html{
     font-size: 62.5%;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -26,8 +26,8 @@ html{
     justify-content: space-between; 
 }
  
-
 .box-conteinar{
+   background-color: gray;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
@@ -35,8 +35,9 @@ html{
    -webkit-flex: 1;
    flex: 1;
    border: 1px solid #000000;
+   
    text-align: center;
-   margin: 10px 20px;
+   margin: 10px 100px;
    padding: 0;
 }
 
@@ -62,4 +63,15 @@ div.box-conteinar h2{
     .box{
         flex-direction: column;
     }
+    .bgimg{
+        height: 250px;
+    }
+}
+
+footer{
+    position:absolute;
+    width: 100%;
+    height: 50px;
+    bottom:0;
+    background-color: gray;
 }
