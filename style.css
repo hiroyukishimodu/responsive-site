@@ -1,0 +1,65 @@
+html{
+    font-size: 62.5%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.block-center,.button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bgimg{
+  background-image: url("images/bota-Kadai-Img.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.box{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between; 
+}
+ 
+
+.box-conteinar{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   
+   -webkit-flex: 1;
+   flex: 1;
+   border: 1px solid #000000;
+   text-align: center;
+   margin: 10px 20px;
+   padding: 0;
+}
+
+div.box-conteinar h2{
+  background-color: skyblue;
+  padding: 5px;
+  margin: 0;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50px;
+    padding: 10px;
+     -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    background-color: #14c0c9;
+}
+
+@media(max-width: 768px){
+    .box{
+        flex-direction: column;
+    }
+}
